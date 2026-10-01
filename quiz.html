@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz main page</title>
+    <link rel="stylesheet" href="quiz.css">
+    
+</head>
+
+<body>
+    <!-- first page div css -->
+    <div class="first-page">
+
+    <img src="./image/logo.png" class="logoFirst" alt="quiz logo img">
+
+    <button id="startbutton">Start Now >>> </button>
+
+</div>
+
+
+      <!-- Quiz-div css -->
+
+     <div class="quiz-div">
+
+     <header class="header-container"> 
+    <img src="/image/logo.png" class="logo" alt="logo">
+    <img src="/image/volume-up-icon.png" class="volume-up" alt="speaker">
+    </header>
+
+    <div class="question-counter">
+        <span class= "ongoingQuestion "></span>
+    </div>
+
+    <div class="question-container">
+        <h3 class="question"></h3>
+    </div>
+
+    <!-- <div class="time-container">
+        <span class="time"></span>
+    </div> -->
+   
+   <div class="answer">
+     <!-- <button class="answer-btn">Answer : 1</button>  -->
+       <!-- button will be append here jan  -->
+    </div>
+
+    </div>
+
+    <!-- result-div html -->
+   <div class="result-container">
+  <div class="result-div">
+   <h2>Quiz Completed 🎉</h2>
+   <p >Your Score</p>
+   <h3 id="showScore">3/10</h3>
+   <p  id="percentageElement">50%</p>
+   <p>😊Not bad! A few jokes flow over head</p>
+   <button id="restart-btn"><<< Restart Quiz</button>
+    
+    <button id="homeBtn">
+    <img src="/image/home-icon.png" alt="home" id="homeImg">
+    </button>
+    
+  </div>
+ </div>
+    
+
+   <!-- footer-div html -->
+   <div class="footer-div">
+   <footer>
+    <img src="/image/pause-icon.png" class="pause-icon" alt="pause-icon">
+    <button id="next-button">Next</button>
+   </footer> 
+   </div>
+     
+   <script src="quiz.js"></script> 
+</body>
+</html>
